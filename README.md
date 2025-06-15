@@ -1,8 +1,6 @@
 # 🐧 GuguOS
 
-GuguOS is a Linux backup system based on Debian 12, designed to turn your PC into a gaming machine using Steam.  
-GuguOS is lightweight and capable of launching Steam Big Picture mode right at login.  
-However, it requires some initial configuration before full use.
+GuguOS is a Linux backup system based on Debian 12, designed to turn your PC into a gaming machine using Steam. GuguOS is lightweight and capable of launching Steam Big Picture mode right at login. However, it requires some initial configuration before full use.
 
 ---
 
