@@ -6,7 +6,8 @@ GuguOS is a Linux backup system based on Debian 12, designed to turn your PC int
 
 ## ⚠️ **Note**
 
-**GuguOS cannot be used on dualboot systems.**
+**GuguOS cannot be used on dualboot systems.**  
+**GuguOS is not beginner-friendly, so all risks are your responsibility.**
 
 ---
 
