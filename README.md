@@ -36,8 +36,8 @@
 4. **Gugu Menu:** A dedicated, simple Menu Manager for intuitive system navigation.
 5. **File Management:** Equipped with **Thunar** for lightweight and reliable file handling.
 6. **Web Browsing:** Comes with **Firefox** pre-installed for secure and stable browsing.
-7. **Ultra-Low RAM Usage:** Extremely optimized to ensure minimal resource consumption.
-8. **Base System:** Based on **Debian 13 Trixie** (Using **antiX** base for professional remastering).
+7. **Low RAM Usage:** Minimal resource consumption.
+8. **Base System:** Based on **Debian 13 Trixie** (Using **antiX** base for remastering).
 
 ---
 
