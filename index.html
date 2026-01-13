@@ -28,6 +28,7 @@
             background-size: 40px 40px;
         }
 
+        /* MASKOT MENGAMBANG POJOK KANAN */
         .fixed-mascot {
             position: fixed;
             bottom: 20px;
@@ -97,6 +98,7 @@
             margin: 15px 0;
         }
 
+        /* SLIDER GALLERY */
         .slider-container {
             position: relative;
             width: 100%;
@@ -152,7 +154,13 @@
         .prev { left: -5px; }
         .next { right: -5px; }
 
-        .table-wrapper { overflow-x: auto; border-radius: 20px; border: 3px solid var(--dark-green); }
+        /* TABLE STYLES */
+        .table-wrapper { 
+            overflow-x: auto; 
+            border-radius: 20px; 
+            border: 3px solid var(--dark-green); 
+            margin-top: 10px;
+        }
         table { width: 100%; border-collapse: collapse; background: var(--soft-green); }
         th, td { padding: 12px; border-bottom: 2px solid var(--primary-green); text-align: left; }
         th { background: var(--primary-green); }
@@ -167,7 +175,7 @@
             font-weight: bold;
             border: 4px solid var(--dark-green);
             box-shadow: 0 6px 0 var(--dark-green);
-            margin-top: 20px;
+            margin-top: 30px;
         }
 
         .floating { animation: float 5s ease-in-out infinite; }
@@ -177,7 +185,6 @@
             .main-title { font-size: 2.2rem; }
             .hero-img { width: 100%; }
             .gallery-item { min-width: 100%; }
-            .window-header { left: 20px; font-size: 0.8rem; }
             .fixed-mascot { width: 80px; bottom: 10px; right: 10px; }
         }
     </style>
@@ -192,9 +199,9 @@
 
         <div class="window-card floating">
             <div class="window-header">🐧 Main Interface</div>
-            <img src="SS_Sawo/2.png" class="hero-img">
-            <p style="text-align: center; margin-top: 15px; font-size: 1.1rem; max-width: 800px; margin-left: auto; margin-right: auto;">
-                <b>A Debian-based operating system</b> designed to be lightweight with Steam Big Picture integration for an optimized gaming experience.
+            <img src="SS_Sawo/7.png" class="hero-img">
+            <p style="text-align: center; margin-top: 15px; font-size: 1.1rem;">
+                <b>A Debian-based operating system</b> designed to be lightweight with Steam Big Picture integration.
             </p>
         </div>
 
@@ -204,16 +211,6 @@
                 • <b>GuguOS is NOT recommended</b> for dual-boot systems.<br>
                 • <b>GuguOS is NOT beginner-friendly</b>, all risks are your responsibility.
             </div>
-        </div>
-
-        <div class="window-card">
-            <div class="window-header">🚀 What's New?</div>
-            <ul style="line-height: 1.8;">
-                <li><b>Window Manager:</b> i3 for superior performance.</li>
-                <li><b>GuguLauncher:</b> Custom fast-access (Python 3).</li>
-                <li><b>Steam Integration:</b> Auto-launch Big Picture.</li>
-                <li><b>System:</b> Based on Debian 13 Trixie (antiX).</li>
-            </ul>
         </div>
 
         <div class="window-card">
@@ -239,15 +236,16 @@
             <div class="table-wrapper">
                 <table>
                     <tr><th>Feature</th><th>Minimum Specs</th><th>Recommended Specs</th></tr>
+                    <tr><td>CPU</td><td>Intel C2D E8400 or AMD Athlon II X2 245</td><td>Intel Core i5 3570 or AMD A10 7850k</td></tr>
                     <tr><td>RAM</td><td>6 GB</td><td>16 GB</td></tr>
                     <tr><td>Storage</td><td>40 GB Free Space</td><td>250 GB Free Space</td></tr>
                     <tr><td>GPU</td><td>OpenGL 3.3 / Vulkan 1.2</td><td>OpenGL 4.6 / Vulkan 1.3</td></tr>
-                    <tr><td>Processor</td><td>x86_64</td><td>x86_64</td></tr>
+                    <tr><td>Architecture</td><td>x86_64</td><td>x86_64</td></tr>
                     <tr><td>Internet</td><td>Required</td><td>Fiber Connection</td></tr>
                 </table>
             </div>
-            <div style="text-align: center; margin-top: 30px;">
-                <a href="https://github.com/DidiSlothStanca/GuguOS/releases/download/v1.0.1-alpha/GuguOS_1.0.1_Sawo_Alpha.iso" class="btn-download">Download GuguOS iso 1.8 GB</a>
+            <div style="text-align: center;">
+                <a href="https://github.com/DidiSlothStanca/GuguOS/archive/refs/heads/main.zip" class="btn-download">Download GuguOS (.zip)</a>
             </div>
         </div>
 
