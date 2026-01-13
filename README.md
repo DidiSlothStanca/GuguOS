@@ -1,63 +1,105 @@
 # 🐧 GuguOS
 
-GuguOS is a Linux backup system based on Debian 12, designed to turn your PC into a gaming machine using Steam. GuguOS is lightweight and capable of launching Steam Big Picture mode right at login. However, it requires some initial configuration before full use.
+<p align="center">
+  <img src="SS_Sawo/7.png" width="100%">
+  <br>
+  <b>Main Interface of GuguOS</b><br>
+  <i>A Debian-based operating system designed to be lightweight with Steam Big Picture integration for an optimized gaming experience.</i>
+</p>
 
 ---
 
 ## ⚠️ **Note**
 
-**GuguOS cannot be used on dualboot systems.**  
-**GuguOS is not beginner-friendly, so all risks are your responsibility.**
+> [!CAUTION]
+> * **GuguOS is NOT recommended** for dual-boot systems.
+> * **GuguOS is NOT beginner-friendly**, so all risks are your responsibility.
 
 ---
 
 ## 🔧 Installation Guide
 
-1. Download the latest version of GuguOS  
+<p align="center">
+  <img src="SS_Sawo/1.png" width="80%">
+  <br>
+  <b>Installer Preview</b><br>
+  <i>A preview of the GuguOS installation process, which is currently under development (Tutorial Coming Soon).</i>
+</p>
 
-2. Use any bootable media creation tool (Rufus, dd, etc.)  
+---
 
-3. Boot into the GuguOS bootable media  
-4. Enter login credentials:  
-   - Username: `gugu`  
-   - Password: `1`  
+## 🚀 What's New in GuguOS Sawo 1.0.1 Alpha?
 
-![](./Login.png)
+1. **Window Manager:** Now using **i3** for superior performance and tiling management.
+2. **GuguLauncher:** A custom, fast-access launcher built with **Python 3**.
+3. **Steam Integration:** Specifically tuned to launch **Steam Big Picture** mode right at login.
+4. **Gugu Menu:** A dedicated, simple Menu Manager for intuitive system navigation.
+5. **File Management:** Equipped with **Thunar** for lightweight and reliable file handling.
+6. **Web Browsing:** Comes with **Firefox** pre-installed for secure and stable browsing.
+7. **Ultra-Low RAM Usage:** Extremely optimized to ensure minimal resource consumption.
+8. **Base System:** Based on **Debian 13 Trixie** (Using **antiX** base for professional remastering).
 
-5. Open terminal (CTRL + T), then run GParted:  
+---
 
-```bash
-sudo gparted
-```
+## 📸 Gallery Screenshots
 
-6. Partition your disk (minimum `/boot` & `/`), then apply changes:  
-   - `/boot` = 512MB (fat32/ext4)  
-   - `/` = Min. 20000 GiB (ext4)  
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="SS_Sawo/1.png" width="300px" alt="Main Interface"><br>
+      <sub><b>Main Interface</b></sub>
+    </td>
+    <td align="center">
+      <img src="SS_Sawo/2.png" width="300px" alt="Gugu Launcher"><br>
+      <sub><b>Gugu Launcher</b></sub>
+    </td>
+    <td align="center">
+      <img src="SS_Sawo/7.png" width="300px" alt="Usage Resource"><br>
+      <sub><b>Usage Resource</b></sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="SS_Sawo/5.png" width="300px" alt="Clean Window Manager"><br>
+      <sub><b>Clean Window Manager i3</b></sub>
+    </td>
+    <td align="center">
+      <img src="SS_Sawo/6.png" width="300px" alt="Gugu Menu"><br>
+      <sub><b>Gugu Menu</b></sub>
+    </td>
+    <td align="center">
+      <img src="SS_Sawo/8.png" width="300px" alt="File Manager"><br>
+      <sub><b>File Manager (Thunar)</b></sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="SS_Sawo/9.png" width="300px" alt="Firefox"><br>
+      <sub><b>Firefox</b></sub>
+    </td>
+    <td align="center">
+      <img src="SS_Sawo/10.png" width="300px" alt="Steam Apps"><br>
+      <sub><b>Steam Apps</b></sub>
+    </td>
+    <td align="center">
+      <img src="SS_Sawo/dudu.gif" width="300px" alt="Dudu Mascot GIF"><br>
+      <sub><b>Dudu Mascot</b></sub>
+    </td>
+  </tr>
+</table>
 
-![](./Partitioning.png)
+---
 
-7. Navigate to: `Taskbar Menu > System > Systemback`  
+## 💻 System Requirements
 
-![](./Step_01.png)
-
-8. In Systemback, choose **System Install**  
-
-![](./Step_02.png)
-
-9. Fill out the installation form as needed, then click **Next**  
-
-![](./Step_03.png)
-
-10. In the **Partition** step, select **Mount Point** based on your earlier partitioning, then click the arrow button `[ <- ]`  
-
-![](./Step_04.png)
-
-11. Set the bootloader to the disk where GuguOS will be installed (`/dev/sdX`)  
-
-![](./Step_05.png)
-
-12. Wait until the installation is complete  
-
-![](./Step_06.png)
+| Feature | Minimum Specs | Recommended Specs |
+| :--- | :--- | :--- |
+| **Processor** | Intel Core 2 Duo E8400 | Intel Core i5 3470 |
+| **RAM** | 6 GB | 16 GB |
+| **Storage** | 40 GB Free Space | 250 GB Free Space |
+| **GPU** | OpenGL 3.3 / Vulkan 1.2 | OpenGL 4.6 / Vulkan 1.3 |
+| **Monitor** | 1366 x 768 | 1920 x 1080 |
+| **Soundcard** | Optional (But better) | Required |
+| **Internet** | Required | Fiber Connection (It's 2026!) |
 
 ---
