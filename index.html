@@ -28,7 +28,23 @@
             background-size: 40px 40px;
         }
 
-        /* Judul H1 Bagian Luar */
+        /* --- MASKOT MENGAMBANG (FIXED) --- */
+        .fixed-mascot {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 120px; /* Ukuran maskot */
+            z-index: 1000;
+            filter: drop-shadow(5px 5px 0px var(--primary-green));
+            pointer-events: none; /* Agar tidak menghalangi klik */
+            animation: bounce 3s ease-in-out infinite;
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0) rotate(0deg); }
+            50% { transform: translateY(-15px) rotate(5deg); }
+        }
+
         .main-title {
             font-size: 3.5rem;
             margin-top: 50px;
@@ -65,10 +81,9 @@
             font-weight: bold;
         }
 
-        /* Hero Image - Ukuran diperkecil agar tidak kegedean */
         .hero-img {
             display: block;
-            width: 80%; /* Diperkecil dari 100% */
+            width: 80%;
             max-width: 600px;
             margin: 15px auto;
             border-radius: 25px;
@@ -162,13 +177,16 @@
 
         @media (max-width: 768px) {
             .main-title { font-size: 2.2rem; }
-            .hero-img { width: 100%; } /* Di HP tetap lebar agar jelas */
+            .hero-img { width: 100%; }
             .gallery-item { min-width: 100%; }
             .window-header { left: 20px; font-size: 0.8rem; }
+            .fixed-mascot { width: 80px; bottom: 10px; right: 10px; }
         }
     </style>
 </head>
 <body>
+
+    <img src="SS_Sawo/dudu.gif" alt="Dudu Mascot" class="fixed-mascot">
 
     <h1 class="main-title">GuguOS Sawo</h1>
 
@@ -213,7 +231,6 @@
                     <div class="gallery-item"><img src="SS_Sawo/8.png"><p>File Manager</p></div>
                     <div class="gallery-item"><img src="SS_Sawo/9.png"><p>Firefox</p></div>
                     <div class="gallery-item"><img src="SS_Sawo/10.png"><p>Steam Apps</p></div>
-                    <div class="gallery-item"><img src="SS_Sawo/dudu.gif"><p>Dudu Mascot</p></div>
                 </div>
                 <button class="nav-btn next" onclick="moveSlide(1)">&#10095;</button>
             </div>
