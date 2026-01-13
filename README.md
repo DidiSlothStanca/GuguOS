@@ -99,6 +99,7 @@
 | **Storage** | 40 GB Free Space | 250 GB Free Space |
 | **GPU** | OpenGL 3.3 / Vulkan 1.2 | OpenGL 4.6 / Vulkan 1.3 |
 | **Monitor** | 1366 x 768 | 1920 x 1080 |
+| **Architecture** | x86_64 | x86_64 |
 | **Soundcard** | Optional (But better) | Required |
 | **Internet** | Required | Fiber Connection (It's 2026!) |
 
