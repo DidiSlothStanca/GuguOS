@@ -46,43 +46,44 @@
 <table align="center">
   <tr>
     <td align="center">
-      <img src="SS_Sawo/1.png" width="300px"><br>
+      <img src="SS_Sawo/1.png" width="300px" alt="Main Interface"><br>
       <sub><b>Main Interface</b></sub>
     </td>
     <td align="center">
-      <img src="SS_Sawo/2.png" width="300px"><br>
+      <img src="SS_Sawo/2.png" width="300px" alt="Gugu Launcher"><br>
       <sub><b>Gugu Launcher</b></sub>
     </td>
     <td align="center">
-      <img src="SS_Sawo/7.png" width="300px"><br>
+      <img src="SS_Sawo/7.png" width="300px" alt="Usage Resource"><br>
       <sub><b>Usage Resource</b></sub>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="SS_Sawo/5.png" width="300px"><br>
+      <img src="SS_Sawo/5.png" width="300px" alt="Clean Window Manager"><br>
       <sub><b>Clean Window Manager i3</b></sub>
     </td>
     <td align="center">
-      <img src="SS_Sawo/6.png" width="300px"><br>
+      <img src="SS_Sawo/6.png" width="300px" alt="Gugu Menu"><br>
       <sub><b>Gugu Menu</b></sub>
     </td>
     <td align="center">
-      <img src="SS_Sawo/8.png" width="300px"><br>
+      <img src="SS_Sawo/8.png" width="300px" alt="File Manager"><br>
       <sub><b>File Manager (Thunar)</b></sub>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="SS_Sawo/9.png" width="300px"><br>
+      <img src="SS_Sawo/9.png" width="300px" alt="Firefox"><br>
       <sub><b>Firefox</b></sub>
     </td>
     <td align="center">
-      <img src="SS_Sawo/10.png" width="300px"><br>
+      <img src="SS_Sawo/10.png" width="300px" alt="Steam Apps"><br>
       <sub><b>Steam Apps</b></sub>
     </td>
     <td align="center">
-      <sub><b>More to Come</b></sub>
+      <img src="SS_Sawo/dudu.gif" width="300px" alt="Dudu Mascot GIF"><br>
+      <sub><b>Dudu Mascot</b></sub>
     </td>
   </tr>
 </table>
