@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GuguOS Sawo - Lightweight Gaming OS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* --- CSS: TEMA HIJAU IMUT (SAGE MINT) --- */
+        :root {
+            --bg-color: #f0f7f4;
+            --primary-green: #b2d8b2;
+            --soft-green: #dcf2e3;
+            --dark-green: #3a5a40;
+            --warning-red: #ffadad;
+            --card-bg: #ffffff;
+        }
+
+        body {
+            font-family: 'Quicksand', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--dark-green);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 900px;
+            margin: 40px 0;
+        }
+
+        /* Window Card Style */
+        .window-card {
+            background: var(--card-bg);
+            border: 4px solid var(--dark-green);
+            border-radius: 25px;
+            padding: 30px;
+            position: relative;
+            box-shadow: 12px 12px 0 var(--primary-green);
+            margin-bottom: 50px;
+        }
+
+        .window-header {
+            position: absolute;
+            top: -22px;
+            left: 30px;
+            background: var(--primary-green);
+            padding: 6px 25px;
+            border: 3px solid var(--dark-green);
+            border-radius: 15px;
+            font-weight: bold;
+        }
+
+        /* Banner & Images */
+        .hero-img {
+            width: 100%;
+            border-radius: 15px;
+            border: 3px solid var(--dark-green);
+            margin: 15px 0;
+        }
+
+        .caution-box {
+            background: var(--warning-red);
+            border: 3px solid var(--dark-green);
+            padding: 15px;
+            border-radius: 15px;
+            margin: 20px 0;
+            font-weight: bold;
+        }
+
+        /* Table Styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background: var(--soft-green);
+            border-radius: 15px;
+            overflow: hidden;
+            border: 2px solid var(--dark-green);
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid var(--dark-green);
+        }
+
+        th { background: var(--primary-green); }
+
+        /* Gallery Grid */
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .gallery-item {
+            text-align: center;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            border-radius: 15px;
+            border: 2px solid var(--dark-green);
+            transition: transform 0.3s;
+        }
+
+        .gallery-item img:hover { transform: scale(1.05); }
+
+        /* Button */
+        .btn-download {
+            display: inline-block;
+            background: var(--primary-green);
+            color: var(--dark-green);
+            text-decoration: none;
+            padding: 15px 40px;
+            border-radius: 50px;
+            font-weight: bold;
+            border: 3px solid var(--dark-green);
+            box-shadow: 0 6px 0 var(--dark-green);
+            margin-top: 20px;
+        }
+
+        .btn-download:active {
+            transform: translateY(4px);
+            box-shadow: 0 2px 0 var(--dark-green);
+        }
+
+        .floating { animation: float 4s ease-in-out infinite; }
+        @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+
+        h1, h2 { margin-top: 0; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        
+        <div class="window-card floating">
+            <div class="window-header">Main Interface</div>
+            <h1>🐧 GuguOS Sawo</h1>
+            <img src="SS_Sawo/7.png" alt="GuguOS Interface" class="hero-img">
+            <p style="text-align: center;"><i>A Debian-based operating system designed to be lightweight with Steam Big Picture integration for an optimized gaming experience.</i></p>
+        </div>
+
+        <div class="window-card">
+            <div class="window-header">Caution</div>
+            <div class="caution-box">
+                ⚠️ GuguOS is NOT recommended for dual-boot systems and is NOT beginner-friendly. All risks are your responsibility.
+            </div>
+        </div>
+
+        <div class="window-card">
+            <div class="window-header">What's New (v1.0.1 Alpha)</div>
+            <ul>
+                <li><strong>Window Manager:</strong> i3 for superior performance.</li>
+                <li><strong>GuguLauncher:</strong> Custom fast-access (Python 3).</li>
+                <li><strong>Steam Integration:</strong> Direct boot to Steam Big Picture.</li>
+                <li><strong>Low RAM Usage:</strong> Minimal resource consumption.</li>
+                <li><strong>Base System:</strong> Debian 13 Trixie (antiX base).</li>
+            </ul>
+        </div>
+
+        <div class="window-card">
+            <div class="window-header">Gallery Screenshots</div>
+            <div class="gallery-grid">
+                <div class="gallery-item"><img src="SS_Sawo/1.png" alt="Installer"><sub>Installer Preview</sub></div>
+                <div class="gallery-item"><img src="SS_Sawo/2.png" alt="Launcher"><sub>Gugu Launcher</sub></div>
+                <div class="gallery-item"><img src="SS_Sawo/6.png" alt="Menu"><sub>Gugu Menu</sub></div>
+                <div class="gallery-item"><img src="SS_Sawo/8.png" alt="Files"><sub>Thunar File Manager</sub></div>
+                <div class="gallery-item"><img src="SS_Sawo/10.png" alt="Steam"><sub>Steam Apps</sub></div>
+                <div class="gallery-item"><img src="SS_Sawo/dudu.gif" alt="Dudu"><sub>Dudu Mascot</sub></div>
+            </div>
+        </div>
+
+        <div class="window-card">
+            <div class="window-header">System Requirements</div>
+            <table>
+                <tr><th>Feature</th><th>Minimum</th><th>Recommended</th></tr>
+                <tr><td>Processor</td><td>Core 2 Duo E8400</td><td>Core i5 3470</td></tr>
+                <tr><td>RAM</td><td>6 GB</td><td>16 GB</td></tr>
+                <tr><td>Storage</td><td>40 GB</td><td>250 GB</td></tr>
+                <tr><td>Internet</td><td>Required</td><td>Fiber Connection</td></tr>
+            </table>
+            
+            <div style="text-align: center; margin-top: 30px;">
+                <a href="https://github.com/DidiSlothStanca/GuguOS/archive/refs/heads/main.zip" class="btn-download">
+                    Download GuguOS (.zip)
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+    <footer style="margin-bottom: 40px; opacity: 0.6;">DidiSlothStanca © 2026</footer>
+
+</body>
+</html>
