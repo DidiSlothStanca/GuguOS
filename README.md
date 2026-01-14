@@ -47,7 +47,7 @@
   <tr>
     <td align="center">
       <img src="SS_Sawo/1.png" width="300px" alt="Main Interface"><br>
-      <sub><b>Main Interface</b></sub>
+      <sub><b>Login LXDM</b></sub>
     </td>
     <td align="center">
       <img src="SS_Sawo/2.png" width="300px" alt="Gugu Launcher"><br>
@@ -104,3 +104,11 @@
 | **Internet** | Required | Fiber Connection (It's 2026!) |
 
 ---
+## 🐧 **Login root/Username & Password**
+
+> [!CAUTION]
+> * **Login as User** Username: demo / Password: demo.
+> * **Login as root** Username: root / Password: toor.
+
+---
+
